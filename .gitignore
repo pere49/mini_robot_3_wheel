@@ -11,6 +11,36 @@ CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
 
+# Build artifacts
+Debug/
+Release/
+build/
+*.elf
+*.hex
+*.bin
+*.map
+*.o
+*.d
+
+# IDE specific files
+.metadata/
+.settings/
+.launch
+.stm32cubemx/
+.mxproject
+.vscode/
+
+# Generated code and libraries (if not managed by Git)
+Drivers/
+Middlewares/
+Target/
+
+# Other common ignored files
+*.log
+*.bak
+*.swp
+*~
+
 # CLion
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
